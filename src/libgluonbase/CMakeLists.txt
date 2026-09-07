@@ -24,6 +24,7 @@ add_library(gluonbase
 )
 target_include_directories(gluonbase PUBLIC .)
 set_target_properties(gluonbase PROPERTIES
+  VERSION 0.0.0
   SOVERSION 0
   POSITION_INDEPENDENT_CODE ON
 )

@@ -28,3 +28,27 @@ if(PkgConfig_FOUND)
 endif()
 
 add_subdirectory(src)
+
+set(CONFIG_INSTALL_DIR ${CMAKE_INSTALL_LIBDIR}/cmake/mathtext)
+
+install(EXPORT mathtextTargets
+  NAMESPACE mathtext::
+  DESTINATION ${CONFIG_INSTALL_DIR}
+)
+
+include(CMakePackageConfigHelpers)
+write_basic_package_version_file(
+  mathtextConfigVersion.cmake
+  VERSION 0.0.0
+  COMPATIBILITY SameMajorVersion
+)
+
+configure_package_config_file(mathtextConfig.cmake.in mathtextConfig.cmake
+  INSTALL_DESTINATION ${CONFIG_INSTALL_DIR}
+)
+
+install(FILES
+  ${CMAKE_CURRENT_BINARY_DIR}/mathtextConfig.cmake
+  ${CMAKE_CURRENT_BINARY_DIR}/mathtextConfigVersion.cmake
+  DESTINATION ${CONFIG_INSTALL_DIR}
+)

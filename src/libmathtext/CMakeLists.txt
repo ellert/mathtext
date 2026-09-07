@@ -27,8 +27,9 @@ add_library(mathtext
   mathtextparse.cc
   mathtextview.cc
 )
-target_include_directories(mathtext PUBLIC .)
+target_include_directories(mathtext PRIVATE .)
 set_target_properties(mathtext PROPERTIES
+  VERSION 0.0.0
   SOVERSION 0
   POSITION_INDEPENDENT_CODE ON
 )
@@ -55,4 +56,4 @@ target_sources(
       mathtext/mathtext.h
 )
 
-install(TARGETS mathtext FILE_SET headers)
+install(TARGETS mathtext EXPORT mathtextTargets FILE_SET headers)
