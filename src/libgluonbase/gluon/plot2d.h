@@ -20,7 +20,8 @@
 #define GLUON_PLOT2D_H_
 
 #include <stdint.h>
-#include <iostream>
+#include <string>
+#include <utility>
 #include <gluon/geometry.h>
 #include <gluon/color.h>
 #include <gluon/rect.h>

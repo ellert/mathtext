@@ -20,7 +20,7 @@
 #define MATHRENDER_H_
 
 #include <string>
-#include <iostream>
+#include <vector>
 #include <cstdint>
 #include <mathtext/geometry.h>
 #include <mathtext/mathtext.h>

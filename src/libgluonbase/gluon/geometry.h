@@ -20,6 +20,7 @@
 #define GLUON_GEOMETRY_H_
 
 #include <cmath>
+#include <string>
 #include <vector>
 #include <algorithm>
 #include <mathtext/geometry.h>

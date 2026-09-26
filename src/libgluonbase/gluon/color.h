@@ -19,7 +19,6 @@
 #ifndef GLUON_COLOR_H_
 #define GLUON_COLOR_H_
 
-#include <vector>
 #include <stdint.h>
 #ifdef HAVE_OPENGL
 #include <GL/gl.h>

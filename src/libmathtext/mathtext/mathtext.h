@@ -17,6 +17,7 @@
 #ifndef MATHTEXT_H_
 #define MATHTEXT_H_
 
+#include <string>
 #include <vector>
 
 namespace mathtext {

@@ -20,8 +20,8 @@
 #define MATHTEXT_GEOMETRY_H_
 
 #include <cmath>
-#include <vector>
 #include <algorithm>
+#include <string>
 
 namespace mathtext {
 

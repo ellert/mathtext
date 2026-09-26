@@ -20,6 +20,7 @@
 #define GLUON_SCREEN_H_
 
 #include <stdint.h>
+#include <string>
 #ifdef HAVE_OPENGL
 #include <GL/gl.h>
 #endif // HAVE_OPENGL

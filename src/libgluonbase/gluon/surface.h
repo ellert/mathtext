@@ -19,9 +19,9 @@
 #ifndef GLUON_SURFACE_H_
 #define GLUON_SURFACE_H_
 
+#include <algorithm>
 #include <string>
-#include <iostream>
-#include <sstream>
+#include <vector>
 #include <stdint.h>
 #ifdef HAVE_SDL
 #include <SDL/SDL.h>
