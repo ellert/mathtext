@@ -463,7 +463,6 @@ namespace mathtext {
 		math_text_t(const std::string &code_string)
 			: _code(bad_cast(code_string)), _render_structure(false)
 		{
-			std::cerr << __FILE__ << ':' << __LINE__ << ": " << std::endl;
 			std::vector<std::string> code_split = tex_split(code_string);
 			_math_list = build_math_list(code_split);
 		}
