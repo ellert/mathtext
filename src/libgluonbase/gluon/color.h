@@ -19,7 +19,7 @@
 #ifndef GLUON_COLOR_H_
 #define GLUON_COLOR_H_
 
-#include <stdint.h>
+#include <cstdint>
 #ifdef HAVE_OPENGL
 #include <GL/gl.h>
 #endif // HAVE_OPENGL

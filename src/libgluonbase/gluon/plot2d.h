@@ -19,7 +19,7 @@
 #ifndef GLUON_PLOT2D_H_
 #define GLUON_PLOT2D_H_
 
-#include <stdint.h>
+#include <cstdint>
 #include <string>
 #include <utility>
 #include <gluon/geometry.h>

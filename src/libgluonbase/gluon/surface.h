@@ -20,9 +20,9 @@
 #define GLUON_SURFACE_H_
 
 #include <algorithm>
+#include <cstdint>
 #include <string>
 #include <vector>
-#include <stdint.h>
 #ifdef HAVE_SDL
 #include <SDL/SDL.h>
 #endif // HAVE_SDL

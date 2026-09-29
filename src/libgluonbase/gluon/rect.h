@@ -19,7 +19,7 @@
 #ifndef GLUON_RECT_H_
 #define GLUON_RECT_H_
 
-#include <stdint.h>
+#include <cstdint>
 #ifdef HAVE_SDL
 #include <SDL/SDL.h>
 #endif // HAVE_SDL
